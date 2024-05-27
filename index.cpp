@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#define SIZE 2
 
 // Inheretence
 class vehicel {
@@ -31,7 +32,7 @@ public:
 };
 
 
-// Bi-directional Association
+// Bi-directional Association [multiplicity eka classes dekema 0..*]
 class Student;
 class Department;
 
@@ -75,7 +76,9 @@ public:
 
 
 // Uni-directional Association
-
+class Employee {
+    
+};
 
 
 
